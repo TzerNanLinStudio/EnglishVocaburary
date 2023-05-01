@@ -1151,7 +1151,7 @@ namespace UI
 
                                         ComboBox_EditArea_Date.Items.Insert(ComboBox_EditArea_Date.Items.Count - 1, date.Insert(4, "/").Insert(7, "/"));
                                         ComboBox_TestArea_Date.Items.Add(date.Insert(4, "/").Insert(7, "/"));
-                                        ComboBox_EditArea_Date.SelectedIndex = ComboBox_EditArea_Date.Items.Count - 2;//1
+                                        ComboBox_EditArea_Date.SelectedIndex = ComboBox_EditArea_Date.Items.Count - 2;//12
                                     }
                                 }
                                 else
